@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The One and the Many</title>
+    <style>
+        /* Modern CSS Reset */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0a0a0a; /* Deep matte black */
+            color: #e0e0e0; /* Off-white for readability */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Container for the text */
+        .riddle-container {
+            text-align: center;
+            border-left: 2px solid #333;
+            padding: 20px 40px;
+            background: linear-gradient(145deg, #111, #050505);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        /* Styling the lines */
+        p {
+            font-size: 1.5rem;
+            line-height: 2;
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: lowercase;
+            font-variant: small-caps;
+            opacity: 0.8;
+            transition: opacity 0.5s ease;
+        }
+
+        /* Subtle hover effect */
+        p:hover {
+            opacity: 1;
+            color: #fff;
+            text-shadow: 0 0 8px rgba(255,255,255,0.3);
+        }
+
+        /* Indentation for the "Many rise" line to mimic your layout */
+        .indent {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="riddle-container">
+        <p>1 becomes many</p>
+        <p class="indent">Many rise behind one</p>
+        <p>All see 1b</p>
+        <p>1 sees none</p>
+    </div>
+
+</body>
+</html>
